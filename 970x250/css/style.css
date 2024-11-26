@@ -174,11 +174,13 @@
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  width: 225px;
+  width: 235px;
   font-size: 18px;
   position: absolute;
   top: 110px;
-  left: -64%;
+  left: -65%;
+  font-weight: 600;
+  line-height: 20px;
 }
 #lottie1{
   background: url('../img/1.png') center no-repeat;
@@ -208,5 +210,5 @@
   width: 98px;
   height: 98px;
   border-radius: 50%;
-  top: 50px;
+  top: 45px;
 }
