@@ -1,0 +1,212 @@
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 970px;
+  height: 250px;
+  background: #bf353d;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.logo {
+  background: url('../img/logo_2x.png') center no-repeat;
+  z-index: 3;
+  width: 91%;
+  background-size: contain;
+  z-index: 5;
+}
+#logo1{
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+
+.image1 {
+  background: url('../img/image1_2x.jpg') center no-repeat;
+  background-size: 100% 100%;
+  height: 250px;
+  width: 314px;
+  left: 0;
+}
+.image2 {
+  background: url('../img/image2_2x.jpg') center no-repeat;
+  height: 250px;
+  width: 970px;
+}
+.image3 {
+  background: url('../img/image3_2x.jpg') center no-repeat;
+  background-size: 100% 100%;
+  height: 250px;
+  width: 314px;
+}
+.image4 {
+  left: 30%;
+}
+.image5 {
+  left: 56%;
+}
+.image6 {
+  left: 83%;
+}
+.image8 {
+  background: url('../img/image4_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+}
+.image9 {
+  background: url('../img/image5_2x.jpg') center no-repeat;
+  background-size: 100% 100%;
+  width: 490px;
+  background-size: cover;
+  background-position: -100px 0px;
+  margin: 0px 380px 0 0;
+}
+.img1 {
+  background: url('../img/image4_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 970px;
+  z-index: 4;
+}
+.img2 {
+  background: url('../img/image5_2x.jpg') center no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.img3 {
+  background: url('../img/image6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 970px;
+  z-index: 4;
+}
+#txt1{
+  font-family: 'Prata', serif;
+  animation: type 1s steps(60, end); 
+  animation-fill-mode: forwards; 
+  left: 52%;
+  top: 15%;
+}
+#txt2{
+  font-family: 'Prata', serif;
+  animation: type 1s steps(60, end); 
+  animation-fill-mode: forwards; 
+  left: 34%;
+  top: 47%;
+}
+#txt3{
+  font-family: 'Poppins', sans-serif;
+  animation: type 1s steps(60, end); 
+  animation-delay: 3s;
+  animation-fill-mode: forwards; 
+  padding-top: 65px;
+  font-size: 49px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  left: 36%;
+  visibility: hidden;
+  color: #ffffff;
+  font-weight: 500;
+}
+.text1 {
+  color: #ffffff;
+  font-size: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+}
+@keyframes type{ 
+  from { width: 0px; visibility: visible; opacity: 0.2; } 
+  to{visibility: visible;}
+}
+
+#txt4 {
+	display:inline-block;
+  color: #ffffff; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 49px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-top: 123px;
+  width: 100%;
+  left: 53%;
+  animation: type 1s steps(60, end); 
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards; 
+}
+#txt6 {
+  background: url('../img/txt6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+#cta{
+  background: url('../img/cta_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+.text{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 225px;
+  font-size: 18px;
+  position: absolute;
+  top: 110px;
+  left: -64%;
+}
+#lottie1{
+  background: url('../img/1.png') center no-repeat;
+  background-size: contain;
+}
+#lottie2{
+  background: url('../img/2.png') center no-repeat;
+  background-size: contain;
+}
+#lottie3{
+  background: url('../img/3.png') center no-repeat;
+  background-size: contain;
+}
+.lottie{
+  width: 54px;
+  height: 48px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.lottieImg{
+  background: #404145;
+  background-size: 50% 50%;
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  top: 50px;
+}

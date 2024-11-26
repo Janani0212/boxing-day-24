@@ -1,0 +1,256 @@
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 600px;
+  background: #bf353d;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.logo {
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index:1;
+}
+.logo1 {
+  background: url('../img/logo_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index:1;
+}
+#line1{
+  padding-top: 128px;
+  left: 35%;
+  animation: type 0.75s steps(60, end); 
+  animation-fill-mode: forwards; 
+}
+#line2{
+  padding-top: 182px;
+  left: 20%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; 
+}
+#line3{
+  padding-top: 240px;
+  left: 35%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 1s;
+  animation-fill-mode: forwards; 
+}
+#line4{
+  padding-top: 128px;
+  left: 15%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 4.25s;
+  animation-fill-mode: forwards; 
+}
+#line5{
+  padding-top: 177px;
+  left: 26%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 4.45s;
+  animation-fill-mode: forwards; 
+}
+#line6{
+  padding-top: 228px;
+  left: 26%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 4.65s;
+  animation-fill-mode: forwards; 
+}
+#line7{
+  padding-top: 125px;
+  left: 35%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 13.15s;
+  animation-fill-mode: forwards; 
+}
+#line8{
+  padding-top: 180px;
+  left: 20%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 13.35s;
+  animation-fill-mode: forwards; 
+}
+#line9{
+  padding-top: 235px;
+  left: 33%;
+  animation: type 0.75s steps(60, end); 
+  animation-delay: 13.55s;
+  animation-fill-mode: forwards; 
+}
+.text1 {
+  line-height: 54px;
+  color: #ffffff;
+  font-family: 'Prata', serif;
+  font-size: 43px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+}
+.text2 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 54px;
+  color: #ffffff;
+  font-size: 34px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  visibility: hidden;
+  font-weight: 400;
+}
+@keyframes type{ 
+  from { width: 0px;visibility: visible;opacity: 0.2; } 
+  to{visibility: visible;}
+}
+
+#txt6 {
+  background: url('../img/txt6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+}
+.image1 {
+  background: url('../img/image1_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 600px;
+}
+.image2 {
+  background: url('../img/image2_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 600px;
+}
+.image3 {
+  background: url('../img/image3_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 600px;
+}
+.img1 {
+  background: url('../img/image4_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 600px;
+}
+.img2 {
+  background: url('../img/image5_2x.png') center no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 600px;
+}
+.img3 {
+  background: url('../img/image6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 600px;
+}
+.image4 {
+  top: 20%;
+}
+.image5 {
+  top: 45%;
+}
+.image6 {
+  top: 70%;
+}
+#image8 {
+  background: url('../img/image4_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 570px;
+}
+#image9{
+  background: url('../img/image5_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 570px;
+}
+#image10 {
+  background: url('../img/image6_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  width: 300px;
+  height: 570px;
+}
+#cta{
+  background: url('../img/cta_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 3;
+}
+.lottieImg{
+  background: #404145;
+  background-size: 50% 50%;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  left: 110px;
+  display: flex;
+  justify-content: center;
+}
+#lottie1{
+  background: url('../img/1.png') center no-repeat;
+  background-size: contain;
+  width: 47px;
+  height: 41px;
+}
+#lottie2{
+  background: url('../img/2.png') center no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 48px;
+}
+#lottie3{
+  background: url('../img/3.png') center no-repeat;
+  background-size: contain;
+  width: 39px;
+  height: 42px;
+}
+.lottie{
+  width: 50px;
+  height: 53px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.text{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 222px;
+  top: 90px;
+}
